@@ -49,7 +49,7 @@ class Parkiran {
     void cariMobil(String platNomor) {
         for (Mobil m : daftarMobil) {
             if (m.platNomor.equalsIgnoreCase(platNomor)) {
-                System.out.println("Mobil dengan plat " + platNomor + " ada di parkiran.");
+                System.out.println("Mobil dengan plat " + platNomor + " berada di parkiran.");
                 return;
             }
         }

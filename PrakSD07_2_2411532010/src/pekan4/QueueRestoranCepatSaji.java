@@ -9,7 +9,7 @@ class Pelanggan {
       this.ID = ID;
       this.jumlahPesanan = jumlahPesanan; }
    }
-public class AntrianRestoran {
+public class QueueRestoranCepatSaji {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class AntrianRestoran {
             int jumlahPesanan = scanner.nextInt();
             queue.add(new Pelanggan(id, jumlahPesanan)); }
         
-        System.out.println("\n      -SERVICE RESULT- ");
+        System.out.println("\n    -SERVICE RESULT- ");
         int waktuKumulatif = 0;
 
         while (!queue.isEmpty()) {
